@@ -55,7 +55,6 @@ function updateActiveLink() {
         link.classList.toggle('active', link.getAttribute('href') === currentHash);
     });
     
-    // Обновляем активные ссылки в мобильном меню
     document.querySelectorAll('.mobile-nav__link').forEach(link => {
         link.classList.toggle('active', link.getAttribute('href') === currentHash);
     });
