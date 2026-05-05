@@ -56,6 +56,10 @@ body {
     padding: 12px 0;
 }
 
+.logo_text{
+    width: 200px;
+    height: 40px;
+}
 /* ===== LOGO STYLES ===== */
 .logo {
     width: 150px;
@@ -304,13 +308,16 @@ body {
     .nav__list {
         display: none;
     }
+
+
     
     .hamburger {
+        margin-right: 13px;
         display: flex;
     }
     
     .nav {
-        padding: 15px 0;
+        padding: 0px 0;
     }
     
     .header.scrolled .nav {
@@ -319,6 +326,9 @@ body {
     
     .logo {
         font-size: 1.3rem;
+        margin-left: 30px;
+        width: 80px;
+        height:70px;
     }
 }
 
@@ -2373,6 +2383,20 @@ address {
 
 /* Планшет (1024px) */
 @media screen and (max-width: 1024px) {
+    .logo{
+        margin-left:5px;
+    }
+
+    .nav__list{
+        /* size: 4rem; */
+        margin-right: 20px;
+    }
+
+    .logo_text{
+    width: 170px;
+    height: 30px;
+    }
+
     .contacts__grid {
         gap: 30px;
     }
@@ -2423,6 +2447,10 @@ address {
 
 /* Мобильные (480px) */
 @media screen and (max-width: 480px) {
+    .logo_text{
+    width: 200px;
+    height: 40px;
+}
     .contacts {
         padding: 60px 0;
     }
@@ -2662,6 +2690,11 @@ address {
 
 /* Адаптив для мобильных устройств */
 @media (max-width: 768px) {
+
+    .logo_text{
+    width: 200px;
+    height: 40px;
+}
     .services-section {
         padding: 48px 16px;
     }
