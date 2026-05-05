@@ -39,7 +39,7 @@ body {
 }
 
 .header.scrolled {
-    background-color: rgba(255, 255, 255, 0.98);
+    /* background-color: rgba(255, 255, 255, 0.98); */
     box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
     padding: 8px 0;
 }
