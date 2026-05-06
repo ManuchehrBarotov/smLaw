@@ -57,7 +57,7 @@
 /* Сетка карточек */
 .services-grid1 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   gap: 28px;
   margin-bottom: 72px;
 }
@@ -464,7 +464,8 @@ body.modal-open {
   .section-tag1 { font-size: 0.65rem; padding: 4px 10px; margin-bottom: 14px; }
   .section-title1 { font-size: 1.5rem; margin-bottom: 10px; }
   .section-description1 { font-size: 0.9rem; padding: 0 4px; }
-  .services-grid1 { gap: 14px; }
+  .services-grid1 {
+     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 14px; }
   .service-card1 { padding: 18px; border-radius: 14px; }
   .service-icon1 { width: 48px; height: 48px; font-size: 22px; margin-bottom: 16px; }
   .service-title1 { font-size: 1rem; margin-bottom: 10px; }
@@ -495,7 +496,8 @@ body.modal-open {
 /* Десктоп 1200–1600px */
 @media (min-width: 1200px) and (max-width: 1600px) {
   .services-section1 { max-width: 1200px; padding: 80px 20px; }
-  .services-grid1 { gap: 24px; }
+  .services-grid1 { gap: 24px;
+    }
   .service-card1 { padding: 28px; }
 }
 
@@ -523,4 +525,10 @@ body.modal-open {
   .services-grid1 { grid-template-columns: repeat(3, 1fr); gap: 18px; }
   .service-card1 { padding: 22px; }
   .service-title1 { font-size: 1.1rem; }
+}
+
+@media  (max-width: 470px) {
+  .services-grid1{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
 }
