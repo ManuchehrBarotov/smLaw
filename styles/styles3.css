@@ -1662,7 +1662,7 @@ img { max-width: 100%; }
 ============================================================ */
 .scroll-top {
   position: fixed;
-  bottom: 30px; right: 30px;
+  bottom: 20px; right: 30px;
   width: 44px; height: 44px;
   background: #1a1f2e;
   color: var(--obsidian);
@@ -1678,12 +1678,17 @@ img { max-width: 100%; }
   transition: all 0.35s ease;
   z-index: 500;
 }
+.imgUp{
+  /* background-color:#8a6f32; */
+  padding: 0 0 0 0;
+  margin: 3px 0 0 0;
+}
 
 .scroll-top.visible { 
   opacity: 1; transform: translateY(0);
  }
 .scroll-top:hover { 
-  background: #1a1f2e; 
+  /* background: #1a1f2e;  */
   box-shadow: var(--shadow-gold);
   /* background-image: url("icons/up.png");  */
 }
