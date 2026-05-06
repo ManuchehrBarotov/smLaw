@@ -641,7 +641,13 @@ img { max-width: 100%; }
   .hero__description { font-size: 1rem; }
   .btn--large { padding: 14px 24px; font-size: 0.75rem; width: 100%; justify-content: center; }
   .hero__cta { flex-direction: column; }
-  .hero__trust { flex-direction: column; gap: 18px; }
+  .hero__trust { 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column; gap: 18px; 
+  }
   .specializations__grid { grid-template-columns: 1fr; }
   .stats-card { left: 14px; bottom: 14px; padding: 14px; }
 }

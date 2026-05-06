@@ -57,7 +57,7 @@
 /* Сетка карточек */
 .services-grid1 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 28px;
   margin-bottom: 72px;
 }
@@ -432,8 +432,11 @@ body.modal-open {
   .section-tag1 { font-size: 0.7rem; padding: 4px 12px; }
   .section-title1 { font-size: 1.8rem; }
   .section-description1 { font-size: 0.95rem; padding: 0 10px; }
-  .services-grid1 { grid-template-columns: 1fr; gap: 18px; }
+  .services-grid1 {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: 1fr; gap: 18px; }
   .service-card1 { padding: 24px; }
+  
   .service-icon1 { width: 56px; height: 56px; font-size: 26px; }
   .service-title1 { font-size: 1.1rem; }
   .service-description1 { font-size: 0.95rem; }
