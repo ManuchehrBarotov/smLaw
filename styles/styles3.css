@@ -411,6 +411,7 @@ img { max-width: 100%; }
   text-decoration: none;
   transition: all 0.35s ease;
   cursor: pointer;
+  color: rgba(0, 255, 21, 0.774);
 }
 
 .btn i { margin-right: 10px; }
@@ -1253,7 +1254,7 @@ img { max-width: 100%; }
   font-size: 1rem;
   transition: all 0.3s ease;
   outline: none;
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
 }
 
 .form-group input:focus,
@@ -1300,8 +1301,12 @@ img { max-width: 100%; }
   margin-bottom: 0;
 }
 
-.checkbox-group label a { color: var(--gold); text-decoration: none; }
-.checkbox-group label a:hover { text-decoration: underline; }
+.checkbox-group label a { color: var(--gold); 
+    text-decoration: none; 
+}
+.checkbox-group label a:hover {
+     text-decoration: underline;
+}
 
 .form-note {
   margin-top: 16px;
