@@ -1533,6 +1533,9 @@ img { max-width: 100%; }
   .footer__bottom { flex-direction: column; gap: 14px; text-align: center; }
   .footer__links { flex-direction: column; gap: 10px; }
   .modal__content { padding: 28px 18px; }
+  .footer__logo{
+    display: none;
+  }
 }
 
 /* ============================================================
