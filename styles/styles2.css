@@ -4,25 +4,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* 
 body {
     background-color: rgb(17, 24, 39);
     color: rgb(243, 244, 246);
     font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
     line-height: 1.5;
-}
+} */
 
 /* ========== БЛОК "НАШИ УСЛУГИ" ========== */
 .services-section1 {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 100px 24px;
+    padding-top: 40px;
+    /* padding-bottom: 00px; */
 }
 
 /* Заголовок секции */
 .section-header1 {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .section-tag1 {
@@ -409,7 +410,7 @@ body {
 /* Адаптив для мобильных устройств */
 @media (max-width: 768px) {
     .services-section1 {
-        padding: 60px 16px;
+        padding: 20px 16px;
     }
     
     .section1-title1 {

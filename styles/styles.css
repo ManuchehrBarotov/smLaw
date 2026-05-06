@@ -915,7 +915,7 @@ body {
 /* ===== О НАС SECTION ===== */
 .about {
     position: relative;
-    padding: 100px 0;
+    padding-top:20px;
     background: #ffffff;
     overflow: hidden;
 }
