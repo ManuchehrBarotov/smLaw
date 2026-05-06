@@ -1490,6 +1490,9 @@ img { max-width: 100%; }
   to   { opacity: 1; transform: translateY(0); }
 }
 
+
+
+
 .contact-card, .form-card, .map-card, .branch-card { animation: slideInUp 0.6s ease-out; }
 .contact-card:nth-child(1) { animation-delay: 0.1s; }
 .contact-card:nth-child(2) { animation-delay: 0.2s; }
@@ -1518,6 +1521,28 @@ img { max-width: 100%; }
   .branches { padding: 28px 20px; }
   .footer__content { grid-template-columns: 1fr; }
   .logo_text { width: 200px; height: 40px; }
+   /* .footer__logo{
+    display: none;
+  } */
+}
+
+.footer__content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 40px;
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 550px) {
+     .footer__logo{
+    display: none;
+  }
+    .footer__content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 0fr;
+        gap: 0px;
+    }
+   
 }
 
 @media (max-width: 480px) {
@@ -1547,12 +1572,7 @@ img { max-width: 100%; }
   padding: 60px 0 0;
 }
 
-.footer__content {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1.5fr;
-  gap: 40px;
-  margin-bottom: 48px;
-}
+
 
 .footer__logo a {
   font-family: var(--font-display);
