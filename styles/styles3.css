@@ -1664,7 +1664,7 @@ img { max-width: 100%; }
   position: fixed;
   bottom: 30px; right: 30px;
   width: 44px; height: 44px;
-  background: var(--gold);
+  background: #1a1f2e;
   color: var(--obsidian);
   border: none;
   border-radius: 50%;
@@ -1679,8 +1679,14 @@ img { max-width: 100%; }
   z-index: 500;
 }
 
-.scroll-top.visible { opacity: 1; transform: translateY(0); }
-.scroll-top:hover { background: var(--gold-bright); box-shadow: var(--shadow-gold); }
+.scroll-top.visible { 
+  opacity: 1; transform: translateY(0);
+ }
+.scroll-top:hover { 
+  background: #1a1f2e; 
+  box-shadow: var(--shadow-gold);
+  /* background-image: url("icons/up.png");  */
+}
 
 /* ============================================================
    MODALS
