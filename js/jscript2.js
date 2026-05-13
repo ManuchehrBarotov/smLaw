@@ -376,7 +376,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // ---------------------------------
 
 
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyIu7nKw_UJtT8360OvnVXOLUG_XI9PMHCxlS1K88EDEl7gwHeS0cPJuFWDEiky4PA4/exec"
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw1HhIrFDe0trvUUyYRtE1cAPbPZfIh1ZMCEsFBH2JTVcnlIjDMASBYrT9k48MJuUB5/exec"
 
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('consultation-form');
