@@ -466,3 +466,17 @@ function showMessage(form, text, type) {
         setTimeout(() => messageDiv.remove(), 300);
     }, 5000);
 }
+
+
+//<a id="yaMapLink" href="#">📍 Открыть в Яндекс.Картах (приложение)</a>
+
+document.getElementById('open-map').addEventListener('click', (event) => {
+    const appScheme = 'https://yandex.ru/maps/-/CPgyQM5V'; // Замените на нужные параметры
+    const webFallback = 'https://yandex.ru/maps/-/CPgyQM5V'; // Резервная ссылка на сайт
+    
+    const timeout = setTimeout(() => { window.location.href = webFallback; }, 500);
+    window.location.href = appScheme;
+    setTimeout(() => clearTimeout(timeout), 1000);
+    
+    event.preventDefault();
+});
